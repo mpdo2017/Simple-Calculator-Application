@@ -18,6 +18,11 @@ namespace CalculatorTests
         }
 
         //add more test code here//
+        [Test]
+        public void ModTest() {
+            var calculator = new CalculatorApp();
+            Assert.AreEqual(1, calculator.Mod(5, 2));
+        }
        
     }
 
