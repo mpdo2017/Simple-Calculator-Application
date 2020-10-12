@@ -15,6 +15,5 @@ namespace Calculator
         public int Mod(int a, int b) {
             return a % b;
         }
-
     }
 }
